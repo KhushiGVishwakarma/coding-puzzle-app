@@ -66,22 +66,6 @@ Choose a virtual or physical device and click "Run"
 
 📸 Screenshots
 
----
-📚 Folder Structure
-CodingPuzzle/
-│
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   ├── res/
-│   │   │   ├── AndroidManifest.xml
-│   │   └── ...
-│   └── build.gradle
-├── .gitignore
-├── build.gradle
-├── README.md
-└── google-services.json (not included in repo)
 
 ---
 
