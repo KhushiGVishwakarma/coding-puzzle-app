@@ -66,6 +66,47 @@ Choose a virtual or physical device and click "Run"
 
 📸 Screenshots
 
+<h3>🚀 Splash Screen</h3>
+<img src="screenshots/Splash%20Screen.png" width="300"/>
+
+<h3>🧭 Start Page</h3>
+<img src="screenshots/Start%20Page.png" width="300"/>
+
+<h3>🔐 Login Page</h3>
+<img src="screenshots/Login%20Page.png" width="300"/>
+
+<h3>✍️ Signup Page</h3>
+<img src="screenshots/Signup%20Page.png" width="300"/>
+
+<h3>👤 User Page</h3>
+<img src="screenshots/User%20Page.png" width="300"/>
+
+<h3>🏠 Home Page</h3>
+<img src="screenshots/Home%20Page.png" width="300"/>
+
+<h3>🤖 Android Page</h3>
+<img src="screenshots/Android%20Page.png" width="300"/>
+
+<h3>❓ Quiz Page</h3>
+<img src="screenshots/Quiz%20Page.png" width="300"/>
+
+<h3>🧮 Score Page</h3>
+<img src="screenshots/Score%20Page.png" width="300"/>
+
+<h3>🏆 Leaderboard Page</h3>
+<img src="screenshots/Leaderboard%20Page.png" width="300"/>
+
+<h3>⚙️ Settings Page</h3>
+<img src="screenshots/Settings%20Page.png" width="300"/>
+
+<h3>👥 Profile Page</h3>
+<img src="screenshots/Profile%20Page.png" width="300"/>
+
+<h3>ℹ️ About Page</h3>
+<img src="screenshots/About%20Page.png" width="300"/>
+
+<h3>💬 Feedback Page</h3>
+<img src="screenshots/Feedback%20Page.png" width="300"/>
 
 ---
 
