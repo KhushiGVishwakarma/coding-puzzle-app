@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebkg"
+    tools:context=".StartPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/cplogo" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/myfont"
+            android:gravity="center"
+            android:text="Coding Puzzle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_32sdp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/Move"
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/my_primary"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Start"
+            android:textSize="@dimen/_25sdp"
+            app:cornerRadius="35dp" />
+
+        <Button
+            android:id="@+id/Settings"
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/my_primary"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Settings"
+            android:textSize="@dimen/_25sdp"
+            app:cornerRadius="35dp" />
+
+        <Button
+            android:id="@+id/About"
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/my_primary"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="About"
+            android:textSize="@dimen/_25sdp"
+            app:cornerRadius="35dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

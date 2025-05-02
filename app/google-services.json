@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "309664726892",
+    "firebase_url": "https://codingpuzzle-7d22a-default-rtdb.firebaseio.com",
+    "project_id": "codingpuzzle-7d22a",
+    "storage_bucket": "codingpuzzle-7d22a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309664726892:android:8390ad08fecb46eaa2fd49",
+        "android_client_info": {
+          "package_name": "com.example.codingpuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309664726892-ffn79pde8q631gc3td7hqo0gh254p18o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.codingpuzzle",
+            "certificate_hash": "36bc9ef0e9f371c931031c0c1f60b893e768e53f"
+          }
+        },
+        {
+          "client_id": "309664726892-r3mmk1emt8qt6o5mkqbvaa5a3v5jqsg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYRVyy613Vchoh8Y-T2eYCV4aVgb4IE2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309664726892-r3mmk1emt8qt6o5mkqbvaa5a3v5jqsg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

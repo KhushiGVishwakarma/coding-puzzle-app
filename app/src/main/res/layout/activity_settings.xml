@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagebkg"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <TextView
+                    style="@style/viewParent.headerText"
+                    android:layout_gravity="center"
+                    android:text="Settings : "
+                    android:textColor="@color/my_primary"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/viewParent.headerText.settingsMiniTitle"
+                    android:text="Theme" />
+
+                <Switch
+                    android:id="@+id/darkModeSwitch"
+                    style="@style/settingsText"
+                    android:drawableLeft="@drawable/ic_dark_mode"
+                    android:text="Dark Mode" />
+
+                <TextView
+                    style="@style/viewParent.headerText.settingsMiniTitle"
+                    android:text="Notifications" />
+
+                <Switch
+                    android:id="@+id/notificationsSwitch"
+                    style="@style/settingsText"
+                    android:checked="true"
+                    android:drawableStart="@drawable/ic_notifications"
+                    android:text="Notifications" />
+
+                <TextView
+                    style="@style/viewParent.headerText.settingsMiniTitle"
+                    android:text="Background Music" />
+
+                <Switch
+                    android:id="@+id/musicSwitch"
+                    style="@style/settingsText"
+                    android:checked="true"
+                    android:drawableStart="@drawable/ic_music"
+                    android:text="Background Music" />
+
+                <TextView
+                    style="@style/viewParent.headerText.settingsMiniTitle"
+                    android:text="About app" />
+
+                <TextView
+                    android:id="@+id/About"
+                    style="@style/viewParent.headerText.settingsTextIcon"
+                    android:drawableLeft="@drawable/ic_about"
+                    android:text="About" />
+
+                <TextView
+                    style="@style/viewParent.headerText.settingsMiniTitle"
+                    android:text="Rate App" />
+
+                <TextView
+                    style="@style/viewParent.headerText.settingsTextIcon"
+                    android:drawableLeft="@drawable/ic_score"
+                    android:text="Rate us !!!" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    style="@style/viewParent.headerText.settingsMiniTitle"
+                    android:text="App ver 2.0.1"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>

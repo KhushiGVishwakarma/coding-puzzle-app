@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CodingPuzzle</string>
+    <item name="imgProfile" type="id" />
+</resources>
